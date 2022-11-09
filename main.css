@@ -1,3 +1,6 @@
+* {
+    color: red;
+}
 body {
     font-family: monospace;
 }
@@ -14,5 +17,6 @@ list-style: square;
 }
 
 #msg {
+
 font-family: monospace;
 }
