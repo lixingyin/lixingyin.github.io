@@ -1,7 +1,0 @@
-> git pull --tags origin main
-From https://github.com/lixingyin/lixingyin.github.io
- * branch            main       -> FETCH_HEAD
-error: Your local changes to the following files would be overwritten by merge:
-	index.html
-Please commit your changes or stash them before you merge.
-Aborting
