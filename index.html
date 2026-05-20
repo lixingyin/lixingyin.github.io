@@ -8,6 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Bitcount+Single&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: 'NDot 47';
+            src: url('ndot-47-inspired-by-nothing.otf.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
         html, body {
             overflow: hidden;
             height: 100%;
@@ -17,12 +24,12 @@
             font-family: 'Oxygen', sans-serif;
             max-width: 800px;
             margin: 80px auto 0 auto;
-            padding: 0px 80px 0 80px; /* left padding only */
+            padding: 0px max(80px, 20%) 0 max(80px, 20%); /* left padding only */
             color: #24211F;
             letter-spacing: 1.4px;
         }
         h1 {
-            font-family: 'Bitcount Single', sans-serif;
+            font-family: 'NDot 47', sans-serif;
             font-size: 32px;
             font-weight: 600;
             color: #24211F;
