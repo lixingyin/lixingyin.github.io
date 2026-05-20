@@ -11,36 +11,48 @@
         html, body {
             overflow: hidden;
             height: 100%;
+            background-color: #F0F0F0;
         }
         body {
             font-family: 'Oxygen', sans-serif;
             max-width: 800px;
             margin: 80px auto 0 auto;
-            padding: 0px 0px 0 80px; /* left padding only */
-            color: #666;
+            padding: 0px 80px 0 80px; /* left padding only */
+            color: #24211F;
             letter-spacing: 1.4px;
         }
         h1 {
             font-family: 'Bitcount Single', sans-serif;
             font-size: 32px;
             font-weight: 600;
-            color: black;
-            margin-bottom: 10px;
+            color: #24211F;
+            margin-bottom: 24px;
+        }
+        h2 {
+            color: #B4AFA3;
+            font-size: 10px;
+        }
+        h3 {
+            color: #B4AFAB;
+            font-size: 9px;
         }
         p {
             font-size: 14px;
             margin-top: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 24px;
+            color:#24211F;
+            line-height: 1.5;
         }
         /* Links */
         a {
-            color: #666;
-            text-decoration: underline;
-            display: inline-flex;
+            color: #24211F;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
             align-items: center;
         }
         a:visited {
-            color: #666;
+            color: #24211F;
         }
         a img {
             width: 14px;
@@ -48,17 +60,36 @@
             filter: brightness(0) saturate(100%) invert(50%);
         }
         p.links-section {
-            margin-top: 20px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px; /* Perfectly gaps your links and mid-dots */
         }
     </style>
 </head>
 <body>
     <h1>Li Xing Yin</h1>
-    <p>First-year Mathematics student at the University of Waterloo</p>
-    <p class="links-section"><a href="https://github.com/lixingyin"><img src="link-svgrepo-com.svg" alt="">GitHub</a></p>
-    <p><a href="https://linkedin.com/in/lixingyin"><img src="link-svgrepo-com.svg" alt="">LinkedIn</a></p>
-    <p><a href="https://instagram.com/lixing_yin"><img src="link-svgrepo-com.svg" alt="">Instagram</a></p>
+    <h2>ABOUT</h2>
+    <p>         
+                Developer studying Honours Mathematics @ UWaterloo
+        <br><br>I love building things from scratch. Whether I'm designing interfaces, coding websites, or tinkering with hardware ranging from autonomous robotics to responsive, AI integrated web apps.
+        <br><br>When I'm not staring at a screen, you can usually find me gaming, writing, or messing around with breadboards.
+    </p>
+    <h2>PROJECTS</h2>
+    <p>Coming Soon.</p>
+    <h2>LINKS</h2>
+    <p class="links-section">
+        <a href="https://github.com/lixingyin">GitHub</a> ·
+        <a href="https://linkedin.com/in/lixingyin">LinkedIn</a> ·
+        <a href="https://instagram.com/lixing_yin">Instagram</a> ·
+        <a href="https://instagram.com/lixing_yin">Instagram</a> 
+    </p>
+    <div style="border-top: 2px solid #B4AFAB; margin: 15px 0; width: 10%;"></div>
+    <h3>© Copyright 2026 Li Xing Yin. All rights reserved.</h3>
 </body>
+
+
+
 
 </html>
 
