@@ -71,10 +71,11 @@
             background-color: #24211F;
             transform: scaleX(0);
             transform-origin: bottom left;
-            transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            transition: transform 0.12s linear;
         }
         a:hover::after {
             transform: scaleX(1);
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
         }
         p.projects-section {
             margin-top: 10px;
